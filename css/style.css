@@ -780,14 +780,14 @@ a, a:hover {
 }
 
 .cover-v1 .heading {
-  font-size: 5rem;
-  font-weight: 900;
+  font-size: 40px;
+  font-weight: 500;
   color: #000;
 }
 
 @media (max-width: 991.98px) {
   .cover-v1 .heading {
-    font-size: 3rem;
+    font-size: 30px;
   }
 }
 
@@ -808,13 +808,13 @@ a, a:hover {
 }
 
 .cover-v1 .subheading {
-  font-size: 33px;
+  font-size: 18px;
   color: #000;
 }
 
 @media (max-width: 991.98px) {
   .cover-v1 .subheading {
-    font-size: 24px;
+    font-size: 15px;
   }
 }
 
@@ -2067,4 +2067,27 @@ span.error {
   .gsap-reveal.gsap-reveal-filter {
     overflow: visible !important;
   }
+}
+
+.wrapper {
+  display: flex;
+  background-color: #ccc;
+  padding-bottom: 50px;
+  border-radius: 25px;
+  margin-right: 70%;
+}
+
+.float {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  shape-outside: inset(calc(100% - 100px) 0 0);
+}
+
+.image-class {
+  padding: 50px;
+  max-width: 75%;
+  height: auto;
+  background-size: 20px;
+  border-radius: 50%;
 }
