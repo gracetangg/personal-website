@@ -779,6 +779,16 @@ a, a:hover {
   min-height: 650px;
 }
 
+.cover-v1 .container-title, .cover-v1 .container-title > .row {
+  z-index: 9;
+  position: relative;
+  height: 400px;
+}
+
+.cover-v1 .container-body, .cover-v1 .container-body > .row {
+  height: 250px;
+}
+
 .cover-v1 .heading {
   font-size: 40px;
   font-weight: 500;
