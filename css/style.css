@@ -203,7 +203,8 @@ a, a:hover {
 }
 
 .unslate_co--site-nav .unslate_co--site-logo span {
-  color: #D63447;
+  /* color: #D63447; */
+  color: #000000;
 }
 
 .unslate_co--site-nav .site-nav-ul, .unslate_co--site-nav .site-nav-ul-none-onepage {
@@ -401,7 +402,7 @@ a, a:hover {
 }
 
 .unslate_co--site-nav.dark .site-nav-ul > li > a:before, .unslate_co--site-nav.dark .site-nav-ul-none-onepage > li > a:before {
-  background: #D63447;
+  color: #000000;
 }
 
 .unslate_co--site-nav.dark .burger-toggle-menu {
@@ -547,7 +548,7 @@ a, a:hover {
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a:hover, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a:hover {
-  color: #D63447;
+  color: #000000;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a:before, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a:before {
@@ -555,7 +556,7 @@ a, a:hover {
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a.active {
-  color: #D63447;
+  color: #000000;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active:before, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a.active:before {
@@ -663,7 +664,7 @@ a, a:hover {
 }
 
 .unslate_co--site-mobile-menu ul a:hover, .unslate_co--site-mobile-menu ul li a:hover {
-  color: #D63447;
+  color: #000000;
 }
 
 .unslate_co--site-mobile-menu ul > li > ul > li > a {
@@ -791,7 +792,7 @@ a, a:hover {
 
 .cover-v1 .heading {
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 700;
   color: #000;
 }
 
@@ -995,6 +996,7 @@ a, a:hover {
   transform: scale(1);
 }
 
+/* HERE IS THE HOVER!!!! */
 .portfolio-item:hover img {
   -webkit-transform: scale(1.09);
   -ms-transform: scale(1.09);
@@ -1400,8 +1402,8 @@ figure.dotted-bg:before {
   line-height: 40px;
   position: relative;
   z-index: 1;
-  -webkit-box-shadow: 0px 30px 0 -20px #d63447;
-  box-shadow: 0px 30px 0 -20px #d63447;
+  /* -webkit-box-shadow: 0px 30px 0 -20px #d63447;
+  box-shadow: 0px 30px 0 -20px #d63447; */
 }
 
 @media (max-width: 991.98px) {
@@ -2090,7 +2092,9 @@ span.error {
 
 .wrapper {
   display: flex;
-  background-color: #ccc;
+  /* background-color: #ccc; */
+  background-color: rgb(204, 204, 204, 0.80);
+  padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 25px;
   margin-right: 70%;
