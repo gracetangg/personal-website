@@ -779,7 +779,7 @@ a, a:hover {
 
 .cover-v1 .container, .cover-v1 .container > .row {
   height: 100vh;
-  min-height: 650px;
+  min-height: 200px;
 }
 
 .cover-v1 .container-title, .cover-v1 .container-title > .row {
